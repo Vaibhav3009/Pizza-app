@@ -8,7 +8,7 @@ const Products = () => {
 
     useEffect ( () => {
 
-        fetch ('/api/products/')
+        fetch ('https://vaibhav3009.github.io/api/products/')
         .then ((Response)=>Response.json())
         .then (products => {
             setProducts(products)
