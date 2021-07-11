@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/pizza-app/static/css/main.f220b2d3.chunk.css",
+    "main.js": "/pizza-app/static/js/main.68316e6d.chunk.js",
+    "main.js.map": "/pizza-app/static/js/main.68316e6d.chunk.js.map",
+    "runtime-main.js": "/pizza-app/static/js/runtime-main.6a130512.js",
+    "runtime-main.js.map": "/pizza-app/static/js/runtime-main.6a130512.js.map",
+    "static/js/2.9e65f638.chunk.js": "/pizza-app/static/js/2.9e65f638.chunk.js",
+    "static/js/2.9e65f638.chunk.js.map": "/pizza-app/static/js/2.9e65f638.chunk.js.map",
+    "index.html": "/pizza-app/index.html",
+    "static/css/main.f220b2d3.chunk.css.map": "/pizza-app/static/css/main.f220b2d3.chunk.css.map",
+    "static/js/2.9e65f638.chunk.js.LICENSE.txt": "/pizza-app/static/js/2.9e65f638.chunk.js.LICENSE.txt",
+    "static/media/empty-cart.621445dd.png": "/pizza-app/static/media/empty-cart.621445dd.png",
+    "static/media/pizza.80b3d1db.png": "/pizza-app/static/media/pizza.80b3d1db.png",
+    "static/media/pizzaLogo.78ca6d9a.jpeg": "/pizza-app/static/media/pizzaLogo.78ca6d9a.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6a130512.js",
+    "static/js/2.9e65f638.chunk.js",
+    "static/css/main.f220b2d3.chunk.css",
+    "static/js/main.68316e6d.chunk.js"
+  ]
+}
