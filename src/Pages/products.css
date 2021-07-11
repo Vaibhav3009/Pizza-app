@@ -1,0 +1,33 @@
+
+.Card:hover{
+
+    background-color: white;
+    color:black;
+    transform: scale(1.2);
+    
+}
+
+.Card{
+    border-radius: 20px;
+}
+.name{
+    color: black;
+    }
+.price{
+    color: white;
+    font-weight: bolder;
+    background-color:blue;
+    border-radius: 50px;
+    }
+
+.Card:hover .name{
+    color:black;
+    
+}
+.Card:hover .price{
+    color: wheat;
+}
+.Card:hover .size{
+    color:black;
+    font-weight: bolder;
+}
