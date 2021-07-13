@@ -8,6 +8,7 @@ import { Link } from 'react-router-dom'
 import Cart from './Pages/Cart'
 import ProductDetail from './Pages/ProductDetail'
 import { CartContext } from './Pages/CartContext'
+import Footer from './components/Footer'
 function App()
 {
     const [cart,setCart] = useState({})
@@ -41,6 +42,7 @@ function App()
              </Switch>
              </CartContext.Provider>
          </Router>
+         <Footer/>
 
         </>
     )

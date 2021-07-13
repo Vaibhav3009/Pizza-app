@@ -19,7 +19,7 @@ return (
             </div>
         </div>
     </div>
-    <div className="pb-24">
+    <div>
     <Products/>
     </div>
     </>

@@ -11,21 +11,22 @@
     border-radius: 20px;
 }
 .name{
-    color: black;
+    color: white;
     }
 .price{
-    color: white;
+    color: black;
     font-weight: bolder;
-    background-color:blue;
+    background-color:white;
     border-radius: 50px;
     }
 
 .Card:hover .name{
-    color:black;
+    color:WHITE;
+    font-weight: bolder;
     
 }
 .Card:hover .price{
-    color: wheat;
+    color:blue;
 }
 .Card:hover .size{
     color:black;

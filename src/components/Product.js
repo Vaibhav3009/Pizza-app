@@ -39,7 +39,7 @@ const Product = (props) => {
     }
     return (
         <Link to={`/products/${props.product._id}`}>
-            <div style={{textAlign:'center',padding:'1em',backgroundColor:'whitesmoke'}} className="Card">
+            <div style={{textAlign:'center',padding:'1em',backgroundColor:'darkslategray',boxShadow: '5px 10px #888888'}} className="Card">
              <img style={{borderRadius:'1.2em'}} src={props.product.image} alt="peproni"></img>
              <h2  className="name text-lg font-bold py-2">{props.product.name}</h2>
              <span className="bg-gray-200 py-1 rounded-full text-sm px-4 size">{props.product.size}</span>

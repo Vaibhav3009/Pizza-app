@@ -16,7 +16,7 @@ const ProductDetial = () => {
       useEffect(() => {
           
         const getProduct = () =>{
-            axios.get(`/api/products/${params._id}`)
+            axios.get(`https://ecom-rest-apis.herokuapp.com/api/products/${params._id}`)
             .then ((Response)=>{
                const product = Response.data
               setProducts(product)

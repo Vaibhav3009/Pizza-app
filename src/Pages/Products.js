@@ -8,7 +8,7 @@ const Products = () => {
 
     useEffect ( () => {
 
-        fetch ('https://vaibhav3009.github.io/api/products/')
+        fetch ('https://ecom-rest-apis.herokuapp.com/api/products/')
         .then ((Response)=>Response.json())
         .then (products => {
             setProducts(products)
@@ -18,7 +18,7 @@ const Products = () => {
     return (
         <>
          <h1 style={{padding:'1em',textAlign:'center',backgroundColor:'#202020',color:'white'}} className="text-lg font-bold">Products</h1>
-        <div style={{backgroundColor:'white'}} className="container mx-auto px-8 py-7 pb-24">
+        <div style={{backgroundColor:'white'}} className="container mx-auto px-8 py-7">
        
          <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 my-8 gap-24">
          

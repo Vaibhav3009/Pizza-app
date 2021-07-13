@@ -60,7 +60,7 @@ const Cart = () => {
 
         if(priceGot)
         return  
-        fetch('api/products/cart-items',{
+        fetch('https://ecom-rest-apis.herokuapp.com/api/products/cart-items',{
             method:'POST',
             headers:{
                 'Content-Type':'application/json'
