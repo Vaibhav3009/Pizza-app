@@ -1,0 +1,2 @@
+.Card:hover{background-color:#fff;color:#000;-webkit-transform:scale(1.1);transform:scale(1.1)}.Card{box-shadow:0 4px 8px 0 rgba(0,0,0,.2);transition:.3s}.Card:hover{box-shadow:0 8px 16px 0 rgba(0,0,0,.2)}.name{color:#000}.price{color:#fff;font-weight:bolder;background-color:#00f;border-radius:50px}.Card:hover .name{color:#000;font-weight:bolder}.Card:hover .price{color:#fff}.Card:hover .size{color:#000;font-weight:bolder}body{background-color:#fff}
+/*# sourceMappingURL=main.5bf8abc9.chunk.css.map */
