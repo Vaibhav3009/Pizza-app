@@ -35,6 +35,7 @@ function App()
          <Navigation/>
              <Switch>
                  <Route path="/" exact component={Home}/>
+                 <Route path="/pizza-app" exact component={Home}/>
                  {/* <Route path="/about" component={About}/> */}
                  <Route path="/products" exact component={Products}/>
                  <Route path="/products/:_id" component={ProductDetail}/>
