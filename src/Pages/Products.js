@@ -18,9 +18,9 @@ const Products = () => {
     return (
         <>
          <h1 style={{padding:'1em',textAlign:'center',backgroundColor:'#202020',color:'white'}} className="text-lg font-bold">Products</h1>
-        <div style={{backgroundColor:'white'}} className="container mx-auto px-8 py-7">
+        <div style={{backgroundColor:'#D8D8D8'}} className="container mx-auto px-2">
        
-         <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 my-8 gap-24">
+         <div className="grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 py-2 gap-4">
          
          {
              products.map( (product)=> <Product key={product._id} product={product}/>  )
